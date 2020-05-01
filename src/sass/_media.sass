@@ -1,0 +1,315 @@
+@media (min-width: 1200px)
+    .footer_visible_small
+        display: none
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 14px
+        &_link
+            font-size: 14px
+    .promo
+        .container
+            .row
+                .promo_header
+                    font-size: 50px
+    .mobile
+        &_item
+            width: 220px
+            height: 180px
+            padding-top: 20px
+            &_plus
+                top: 130px
+    .choice
+        &_title
+            font-size: 30px
+    .footer_visible_small
+        display: none
+    .footer_visible_small
+        display: none
+
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader
+        .subheader_logo
+            img
+                width: 100%
+        .subheader_official
+            font-size: 11px
+        .subheader_phone
+            font-size: 18px
+        .subheader_btn
+            font-size: 10px
+            margin-top: 23px
+            width: 100%
+    .promo
+        padding-top: 160px
+        .container
+            .row
+                .promo_header
+                    font-size: 40px
+                .promo_subheader
+                    font-size: 28px
+    .reason
+        &_block
+            flex-wrap: wrap
+            .background_reason_img
+                margin-right: 0
+            .reason_header_descr
+                margin-top: 20px
+    .mobile
+        padding-bottom: 0
+        .label
+            margin-top: 30px
+    .choice
+        min-height: 800px
+        padding: 56px 0 50px 0
+        .container
+            .choice_img
+                img
+                    width: 100%
+                    height: 100%
+    .require
+        .container
+            .label
+                margin-top: 0
+    .footer_visible_small
+        display: none
+
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px 
+        background-color: rgba(0,0,0, .9)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs_hidden
+        display: none
+    .xs_visible
+        display: block
+    .subheader
+        .subheader_phone
+            display: block
+            font-size: 12px
+            text-align: center
+            color: #ffffff
+            margin-top: 11px
+        .subheader_btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 8px auto 0 auto
+    .promo
+        .container
+            .row
+                .promo_header
+                    line-height: 45px
+    .footer_visible_small
+        display: none
+
+@media (max-width: 575px)
+    body
+        header
+            nav
+                height: 36px
+                .container
+                    .menu
+                        .menu_item
+                            width: 100% 
+                            text-align: center
+                            a
+                                display: block
+                                width: 100%
+                                text-align: center
+                                padding: 8px 0
+    .subheader
+        height: 60px
+        top: 36px
+        .container
+            .row
+                .subheader_official
+                    display: none
+                .subheader_logo
+                    margin-top: 20px
+                .subheader_phone
+                    display: block
+                    font-size: 12px
+                    font-weight: 400
+                    margin-top: 12px
+                .subheader_btn
+                    width: 110px
+                    height: 22px
+                    margin-top: 4px
+    .promo
+        min-height: 400px
+        padding: 143px 0 35px 0
+        .container
+            .row
+                .promo_header
+                    font-size: 30px
+                    line-height: 30px
+                .promo_subheader
+                    font-size: 20px
+                    line-height: 28px
+                    margin-top: 35px
+                .promo_descr
+                    display: none
+                .promo_btn
+                    width: 210px
+                    height: 50px
+                    margin-top: 72px
+    .menu
+        width: 85%
+        align-items: center
+        padding: 20px 14px
+    .reason
+        padding: 22px 0 36px 0
+        .container
+            .reason_advantages
+                margin-top: 0
+            .row
+                .reason_block
+                    margin-top: 22px
+    .title
+        font-size: 15px
+        line-height: 16px
+        margin-top: 15px
+    .background_reason_img
+        width: 100px
+        height: 100px
+        img
+            width: 100px
+            height: 100px
+    .mobile
+        min-height: 1805px
+        padding: 36px 0 43px 0
+        .container
+            .label
+                margin-top: 0
+            .subtitle
+                margin-top: 11px
+                line-height: 18px
+            .row
+                .mobile_item
+                    width: 290px
+                    height: 254px
+                    padding-top: 81px
+                    .mobile_item_subtitle
+                        font-size: 18px
+                    .mobile_item_plus
+                        top: 206px
+    .choice
+        min-height: 390px
+        padding: 25px 0 33px 0
+        .container
+            .choice_hidden
+                display: none
+            .choice_img
+                img
+                    width: 100%
+                    height: 100%
+                    margin-top: 35px
+            .choice_slogan
+                color: #ffffff
+    .require
+        min-height: 1049px
+        padding: 25px 0
+        .container
+            .label
+                margin-top: 0
+    .cities
+        min-height: 360px
+        padding: 25px 0 30px 0
+        .container
+            .subtitle
+                margin-top: 10px
+                font-size: 14px
+                line-height: 20px
+            .cities_link
+                margin-top: 260px
+    .footer_hidden
+        display: none
+
+    .footer_visible_small
+        display: block
+        min-height: 225px
+        .footer_visible_small_line
+            margin: 25px auto 0 auto
+            width: 253px
+            height: 4px
+            background-color: #1fbad6
+        .footer_visible_small_menu
+            display: flex
+            justify-content: space-around
+            margin-top: 22px
+            a
+                display: block
+                font-family: Roboto
+                font-size: 14px
+                font-weight: 300
+                text-align: left
+                color: #070716
+        .footer_visible_small_submenu
+            padding: 0 38px
+            .wrapper
+                display: flex
+                align-content: space-around
+                flex-wrap: wrap
+                justify-content: center
+                a
+                    display: block
+                    font-family: Roboto
+                    font-size: 12px
+                    color: grey
+                    margin-right: 20px    
+                    margin-top: 15px
+        .footer_social
+            display: flex
+            justify-content: space-between
+            margin-top: 40px
+            padding: 0 50px 0 50px
+            a
+                display: block
+                img
+                    width: 50px
+                    height: 50px
